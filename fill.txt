@@ -1,0 +1,126 @@
+                  ••••••••••v•••••••••••••••••••••••••••DIASPOSITIVE 1 :  INTRODUCTION  ••••••••••v•••••••••••••••••••••••••••••••••••••••
+
+•	Introduction à MongoDB et SQL
+•	Explication des concepts clés de chaque type de base de données  et leurs fonctionnalités.
+
+
+
+      ••••••••••v•••••••••••••••••••••••••••••••••••••••DIASPOSITIVE 2: MongoDB (NoSQL) et   SQL (base de données relationnelle)  •••••••••••••••••••••••••••••••••••••••••••
+
+
+                     A. MongoDB (NoSQL)
+
+
+      les principales caractéristiques de MongoDB :
+
+•   Présentation de MongoDB comme une base de données NoSQL
+•	Base de données orientée documents : les données sont stockées sous forme de documents flexibles similaires à JSON.
+•	Structure flexible : les schémas peuvent être modifiés dynamiquement, ce qui facilite l'adaptation aux besoins changeants des applications.
+•	Requêtes riches : prend en charge des requêtes complexes et puissantes grâce à son langage de requête intégré.
+
+               
+               
+               
+                B. SQL (base de données relationnelle)
+
+      les principales caractéristiques de SQL :
+
+•	Modèle relationnel : utilise des tables avec des lignes et des colonnes pour organiser les données.
+•	Contraintes d'intégrité : assure l'intégrité des données en utilisant des clés primaires, des clés étrangères et d'autres contraintes.
+•	Langage SQL : utilise un langage standardisé pour interagir avec la base de données, permettant des requêtes, des insertions, des mises à jour et des suppressions.
+•	Joins : permet de combiner des données provenant de plusieurs tables grâce à des opérations de jointure.
+
+
+                    
+                    
+                    
+           ••••••••••v•••••••••••••••••••••••••••••••••••••••  DIASPOSITIVE 3: COMPARAISON••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+
+
+                      A.Modèle de données:
+
+MongoDB: Modèle de données orienté document
+SQL: Modèle de données relationnel
+
+                           B.Schéma:
+
+MongoDB: Pas de schéma rigide, permet une flexibilité dans la structure des données
+SQL: Schéma strict, les tables ont des colonnes prédéfinies avec des types de données
+
+                         C.Évolutivité:
+
+MongoDB: Évolutif horizontalement, peut gérer de grandes quantités de données et de trafic
+SQL: Évolutif verticalement, nécessite souvent une mise à l'échelle matérielle pour gérer la charge
+Diapositive 5:
+
+
+
+                          D.Transactions:
+
+MongoDB: Prise en charge des transactions multi-document, mais pas aussi complète que dans les bases de données SQL
+SQL: Prise en charge complète des transactions ACID
+
+                        
+                           E.Flexibilité:
+
+MongoDB: Permet des schémas flexibles et facilite les changements rapides dans la structure des données
+SQL: Requiert un schéma fixe et nécessite des modifications de schéma plus complexes
+
+          
+          
+             ••••••••••••••••••••••••••••••••••••••••••••••••• DIASPOSITIVE 4 : CAS D'UTILISATION ET RECOMMANDATION  •••••••••••••••••••••••••••••••••••••••••••••••••
+
+          
+          
+                A. Cas d'utilisation
+
+                      • MongoDB:
+
+Applications Web et mobiles avec des besoins de scalabilité et de flexibilité dans la structure des données.
+Gestion de contenu, blogs et plateformes de publication en ligne.
+Analyse de données non structurées ou semi-structurées.
+                         
+                         
+                       •  SQL:
+
+Applications nécessitant des relations complexes entre les données.
+Systèmes transactionnels critiques où la cohérence et l'intégrité des données sont essentielles.
+Reporting et analyse basés sur des requêtes SQL puissantes.
+
+                 
+                 
+                    B. Recommandations
+
+              
+                • Utiliser MongoDB lorsque:
+
+
+Vous avez des données non structurées ou semi-structurées.
+Vous avez besoin d'évolutivité horizontale pour gérer de gros volumes de données et de trafic.
+Vous prévoyez des changements fréquents dans la structure des données.
+
+                    
+                    •Utiliser SQL lorsque:
+
+
+Vous avez des relations complexes entre les données.
+La cohérence et l'intégrité des données sont des priorités.
+Vous avez besoin d'un support transactionnel complet.
+
+                
+              •Utiliser une combinaison de MongoDB et SQL:
+
+ Utiliser MongoDB pour les parties de l'application nécessitant une flexibilité et une évolutivité, tout en utilisant SQL pour les fonctionnalités transactionnelles et les relations complexes.
+
+
+
+              
+                   ••••••••••••••••••••••••••••••••••••••••••••••••DIASPOSITIVE 5 : CONCLUSION  •••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+MongoDB et SQL sont deux types de bases de données avec des caractéristiques et des fonctionnalités différentes.
+MongoDB est adapté aux applications nécessitant une flexibilité et une évolutivité horizontale.
+SQL convient aux applications nécessitant des relations complexes et un support transactionnel complet.
+Il est important d'évaluer les besoins spécifiques de votre projet avant de choisir entre MongoDB et SQL.
